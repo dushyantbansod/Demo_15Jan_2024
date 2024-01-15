@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import BaseLayer.BaseClass;
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 
 public class LoginPage extends BaseClass{
 
@@ -26,6 +27,7 @@ public class LoginPage extends BaseClass{
 	
 	
 	public void enterUsernameAndPassword(String Username,String Password) {
+		System.out.println("Akshay Sub Branch");
 		uname.sendKeys(Username);
 		pass.sendKeys(Password);
 		
