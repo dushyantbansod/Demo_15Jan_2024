@@ -26,6 +26,8 @@ public class LoginPage extends BaseClass{
 	
 	
 	public void enterUsernameAndPassword(String Username,String Password) {
+		
+		System.out.println("Git Sub Branch Complete");
 		uname.sendKeys(Username);
 		pass.sendKeys(Password);
 		
